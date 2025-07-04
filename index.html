@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <title>Sem Acesso</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="grid-container">
+    <form id="formulario">
+        <button type="submit">Processar</button>
+
+  <br><br>
+  <label for="resultado">Resultado:</label>
+  <textarea id="resultado" rows="6" style="width:100%;" readonly></textarea>
+</form>
+      <h2>SEM ACESSO</h2>
+
+      <h4>PARECER FINAL</h4>
+      <div class="visita_css">
+        <label for="VISITA">Necessário a visita técnica</label><br>
+        <select name="VISITA" id="VISITA">
+          <option value="SIM">Sim</option>
+          <option value="NÃO">Não</option>
+        </select><br>
+      </div>
+
+      <div class="custo_css">
+        <label for="CUSTO">Custo da manutenção</label><br>
+        <select name="CUSTO" id="CUSTO">
+          <option value="95,00">R$ 95,00</option>
+          <option value="150,00">R$ 150,00</option>
+          <option value="Isento">R$ Isento</option>
+          <option value="Avaliar no local"> Avaliar no local</option>
+        </select><br>
+      </div>
+
+      <div class="telefone_css">
+        <label for="TELEFONE">Telefone para contato</label>
+        <input type="tel" id="TELEFONE" name="TELEFONE" size="80">
+      </div>
+
+      <div class="observacoes_css">
+        <label for="OBS">Observações gerais do atendimento</label>
+        <input type="text" id="OBS" name="OBS" size="100">
+      </div>
+
+      <br>
+    </form>
+  </div>
+
+  <footer>
+    <div class="rodape_css">
+      <p>Autor: Lucas</p>
+    </div>
+  </footer>
+</body>
+</html>
